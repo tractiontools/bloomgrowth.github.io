@@ -1,0 +1,10 @@
+* { padding: 0; margin: 0; border: 0; font-family: serif;}
+#top_nav {float: left; height:75px; width: 100%; margin: 0 auto 0 auto; padding:6px 6px 6px 40px; background-color: #3E3935;}
+p {color:#3E3935; font-size: 13px; line-height: 1.4em;margin: 0 0 .7em 0;}
+p.timestamp {color: #CAC8C8;}
+p.note {font-style: italic;}
+a {color: #EF7622;}
+h1 {color:#3E3935;font-size: 20px; font-weight:normal;line-height: 1.4em; margin: 0 0 .7em 0;}
+h2 {color:#EF7622; font-size: 18px; font-weight:normal;line-height: 1.4em;margin: 0 0 .7em 0;}
+h3 {color:#3E3935; font-size: 16px; font-weight:normal;line-height: 1.4em;margin: 0 0 .7em 0;}
+#container {float: left; padding:40px 40px 40px 50px; width: auto; max-width:100%; margin: 0 auto 0 auto;}
