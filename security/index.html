@@ -28,7 +28,7 @@
 <p>From AWS Security Whitepaper (August 2016)</p>
 <p>AWS’s data centers are state of the art, utilizing innovative architectural and engineering approaches. Amazon has many years of experience in designing, constructing, and operating large-scale data centers. This experience has been applied to the AWS platform and infrastructure. AWS data centers are housed in nondescript facilities. Physical access is strictly controlled both at the perimeter and at building ingress points by professional security staff utilizing video surveillance, intrusion detection systems, and other electronic means. Authorized staff must pass two-factor authentication a minimum of two times to access data center floors. All visitors and contractors are required to present identification and are signed in and continually escorted by authorized staff.</p>
 <h3>Is there any geographical redundancy or are all servers physically located close to each other?</h3>
-Traction Tools is made up of several microservices, some of them their own separate database. Currently, all servers are located in the same availability zone as their respective database. This significantly reduces latency. The database is replicated in multiple availability zones. In the event of a database failure, database access fails-over to another availability zone temporarily.</p>
+<p>Traction Tools is made up of several microservices, some of them their own separate database. Currently, all servers are located in the same availability zone as their respective database. This significantly reduces latency. The database is replicated in multiple availability zones. In the event of a database failure, database access fails-over to another availability zone temporarily.</p>
 <h3>Where specifically are the servers located (City/State)?</h3>
 <p>The main Traction Tools website is located in the Oregon availability zone, in two of the following near either Grandview, Antelope or Mitchell. Additional services are located in North Virginia near either Montvale, Buena Vista or Lynchburg. The exact location of the servers are kept secret by Amazon for additional security.</p>
 <h3>Is there on-demand scaling (“if we experience unusual high traffic…”)? If so, is this automatic as well?</h3>
@@ -51,4 +51,4 @@ Traction Tools is made up of several microservices, some of them their own separ
 <p>We are currently offering 99.95% uptime. We are always working to improve this number.</p>
 </div>
 </body>
-</html> 
+</html>
