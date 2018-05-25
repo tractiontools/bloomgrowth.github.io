@@ -1,9 +1,9 @@
 * { padding: 0; margin: 0; border: 0; font-family: arial,helvetica, sans-serif;}
-body {margin-bottom: 200px;}
+body {padding-bottom: 200px;}
 #top_nav {float: left; height:75px; width: 100%; margin: 0 auto 0 auto; padding:6px 6px 6px 40px; background-color: #3E3935;}
 #top_links {font-size: 13px;float: left; width:100%;list-style: none;margin: 0 auto 0 auto; padding:0 0 1.4em 0; line-height: 1.4em;}
 #top_links li {float: left;margin:0 20px 0 0;}
-p,ol {color:#3E3935; font-size: 13px; line-height: 1.4em;margin: 0 0 .7em 0;}
+p,ol,ol li {color:#3E3935; font-size: 13px; line-height: 1.4em;margin: 0 0 .7em 0;}
 p.timestamp {color: #CAC8C8;}
 p.note {font-style: italic;}
 a {color: #EF7622;display: inline-block;}
