@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Traction Tools Compliance and Security Information</title>
+<link type="text/css" rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div id="top_nav"><img src="/images/traction_tools_logo.png"></div>
+<div id="container">
+<ul id="top_links">
+<li><a href="/privacy/">Privacy</a></li>
+<li><a href="/security/">Security</a></li>
+<li><a href="/terms-of-service/">Terms Of Service</a></li>
+<li><a href="/company-information/">Company Information</a></li>
+</ul>
+<h1>Offical Policies and Security Information for Traction Tools</h1>
+<p class="timestamp">May 25, 2018</p>
+<p class="note">Note: Usage of "we" and "our" indicates Traction Tools. Usage of "you" and "yours" indicates current, former and potential users of our services and visitors to our websites. </p>
+<h2>Our Security</h2>
+<h2>General Information</h2>
+<p>Traction Tools is hosted on Amazon Web Services (AWS). As an AWS hosted website, we enjoy all security best practices implemented by Amazon (the same ones Amazon.com uses). Traction Tools uses Elastic Beanstalk (a product of AWS) to scale up with demand and provide website redundancy through multiple servers hosting Traction Tools. This means if one server goes down, others take its place automatically. It also means if we experience unusually high traffic, more servers come online to handle the workload. Currently, our servers are located in various availability zones throughout the United States in secure AWS facilities.</p>
+<p>Your data is protected from the outside world. The Traction Tools database is only accessible from over Amazon's private network, and, even then, only visible to other Traction Tools servers. This information is inaccessible to the outside world except through the Traction Tools website and only when signed in as an authorized user. All data-in-motion (anything that you would see visiting https://traction.tools) is encrypted with SSL and cannot be read if intercepted in transit.</p>
+<h2>Are your servers dedicated (to Traction Tools) or are they shared?</h2>
+<p>The Traction Tools web service is hosted on virtual servers which are logically isolated from other AWS virtual servers. Web Services may share hardware but have separate operating and memory space.</p>
+<h2>What is the physical security of Amazon’s server farm?</h2>
+<p>From AWS Security Whitepaper (August 2016)</p>
+<p>AWS’s data centers are state of the art, utilizing innovative architectural and engineering approaches. Amazon has many years of experience in designing, constructing, and operating large-scale data centers. This experience has been applied to the AWS platform and infrastructure. AWS data centers are housed in nondescript facilities. Physical access is strictly controlled both at the perimeter and at building ingress points by professional security staff utilizing video surveillance, intrusion detection systems, and other electronic means. Authorized staff must pass two-factor authentication a minimum of two times to access data center floors. All visitors and contractors are required to present identification and are signed in and continually escorted by authorized staff.</p>
+<p>Is there any geographical redundancy or are all servers physically located close to each other?</h2>
+Traction Tools is made up of several microservices, some of them their own separate database. Currently, all servers are located in the same availability zone as their respective database. This significantly reduces latency. The database is replicated in multiple availability zones. In the event of a database failure, database access fails-over to another availability zone temporarily.</p>
+<h2>Where specifically are the servers located (City/State)?</h2>
+<p>The main Traction Tools website is located in the Oregon availability zone, in two of the following near either Grandview, Antelope or Mitchell. Additional services are located in North Virginia near either Montvale, Buena Vista or Lynchburg. The exact location of the servers are kept secret by Amazon for additional security.</p>
+<h2>Is there on-demand scaling (“if we experience unusual high traffic…”)? If so, is this automatic as well?</h2>
+<p>Yes. Additional resources are provisioned automatically through AWS as needed.</p>
+<h2>What standards and/or specific compliance does AWS have?</h2>
+<p>From AWS Security Whitepaper (August 2016)</p>
+<p>SOC 1/SSAE 16/ISAE 3402 (formerly SAS 70), SOC 2, SOC 3, FISMA, DIACAP, and FedRAMP, DOD CSM Levels 1-5, PCI DSS Level 1, ISO 9001 / ISO 27001, ITAR, FIPS 140-2, MTCS Level 3</p>
+<h2>Is there a self-hosted version?</h2>
+<p>A self-hosted version of Traction Tools is not part of our product development roadmap.</p>
+<h2>How are backups handled?</h2>
+<p>Automatic backups are performed daily and are retained for 7 days. Permanent backups are made monthly.</p>
+<h2>Who from Traction Tools can view data in the cloud?</h2>
+<p>Only the Customer Support and Engineering departments have access and only in assisting you at your request. No third-party has access to your data. We maintain audit logs for every request made to the website.</p>
+<h2>Is two-factor authentication offered?</h2>
+<p>Not at this time.</p>
+<h2>What is your termination or 'exit process'?</h2>
+<p>We have tools for exporting your data to CSV format. We're happy to help export your data upon request.</p>
+<h2>What is your uptime?</h2>
+<p>We understand that having access to your data at all times is of utmost importance. This is one of the reasons we selected Amazon Web Services for Traction Tools software, given their strong infastructure and committment to maintaining maximum uptime.</p>
+<p>We are currently offering 99.95% uptime. We are always working to improve this number.</p>
+</div>
+</body>
+</html>
